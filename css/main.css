@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Yellowtail');
+
+/*font-family: 'Encode Sans Condensed', sans-serif;*/
+/*font-family: 'Yellowtail', cursive;*/
+
+nav {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.mobile-nav {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    margin-top: 15px;
+}
+
+.nav-wrapper ul li {
+    margin-right: 5px;
+}
+
+.nav-wrapper ul li a {
+    color: #000;
+}
+
+.img-logo {
+    margin-top: 10px;
+}
+
+
+.card-panel {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.deal-intro {
+    text-align: center;
+}
+
+.deal-intro .best-price-title {
+	font-family: 'Yellowtail', cursive;
+}
+
+.deal-intro .best-price-p {
+	font-style: italic;
+}
+
+.langkawi-tag {
+	color: #b71c1c;
+}
+
+.social-icons {
+    margin-left: 15px;
+}
