@@ -5,6 +5,23 @@
 /*font-family: 'Magra', sans-serif;*/
 
 
+
+.main-header {
+    min-height: 350px;
+    color: #fff;
+}
+
+.main-header .showcase {
+    background: url(../img/honeymoon-showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.main-header .showcase h1 {
+    padding-top: 50px;
+}
+
 nav {
     font-family: 'Encode Sans Condensed', sans-serif;
 }
@@ -12,6 +29,7 @@ nav {
 .mobile-nav {
     font-family: 'Encode Sans Condensed', sans-serif;
     margin-top: 15px;
+    background-color: #fff;
 }
 
 .nav-wrapper ul li {
@@ -24,12 +42,6 @@ nav {
 
 .img-logo {
     margin-top: 10px;
-}
-
-
-.card-panel {
-    margin-top: 15px;
-    text-align: center;
 }
 
 .deal-intro {
@@ -48,6 +60,3 @@ nav {
 	color: #b71c1c;
 }
 
-.social-icons {
-    margin-left: 15px;
-}
