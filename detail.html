@@ -189,7 +189,7 @@
         
         <div class="row">
             <div class="col s12 m7">
-                <h4><i class="fas fa-exclamation-circle"></i> Cancelation &amp; Refund Policies</h4>
+                <h4><i class="fas fa-exclamation-circle"></i> Cancellation &amp; Refund Policies</h4>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                 sed diam nonummy nibh euismod tincidunt ut laoreet dolore
                 magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -221,7 +221,48 @@
             <div class="col s12 m6">
                 <div class="card">
                     <div class="card-content">
+                        <div class="card-title">MYR50</div>
+                        <p><del>MYR100</del><span class="new badge red" data-badge-caption="%">-50</span></p>
+                        <br/>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">date_range</i>
+                                <input type="text" id="icon_prefix" class="datepicker">
+                                <label for="icon_prefix">Select your date</label>
+                            </div><!-- col -->
+                        </div><!-- row -->
+                        <ul class="collection">
+                            <li class="collection-item">
+                                <p>
+                                    <label>
+                                        <input name="option1" type="radio" checked />
+                                        <span>Option 1</span>
+                                    </label>
+                                </p>
+                            </li>
+                            <li class="collection-item">
+                                <p>
+                                    <label>
+                                        <input name="option1" type="radio" checked />
+                                        <span>Option 2</span>
+                                    </label>
+                                </p>
+                            </li>
+                        </ul><!-- collection -->
+                        <div class="row">
+                            <div class="col s6">
+                                <h5>Total:</h5>
+                            </div><!-- col -->
+                            <div class="col s6">
+                                <h5 class="red-text">MYR50</h5>
+                            </div><!-- col -->
+                        </div><!-- row -->
                         
+                        <div class="row">
+                            <div class="col s6">
+                                <a href="#" class="waves-effect waves-light btn-small red">BOOK NOW!</a>
+                            </div><!-- col -->
+                        </div><!-- row -->
                     </div><!-- card-content -->
                 </div><!-- card -->
             </div><!-- col -->
@@ -286,6 +327,10 @@
                interval: 6000
             });
             
+            //Initiate Datepicker
+            $('.datepicker').datepicker({
+                autoClose: true
+            });
         });
     </script>
     
