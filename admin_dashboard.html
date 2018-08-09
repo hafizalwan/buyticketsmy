@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    
+    <div class="navbar-fixed">
+        <nav class="grey lighten-5">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><img class="img-logo" src="img/main-logo-web.png" alt="buyticketsmy"></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="popular.html">Popular Activities</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="sign_in.html" class="waves-effect waves-light btn-small red white-text">LOGIN</a></li>
+                        <li><a href="https://www.facebook.com/buyticketsmy"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div><!-- nav-wrapper -->
+            </div><!-- container -->
+        </nav>
+    </div><!-- navbar-fixed -->
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav hide-on-large-only">
+        <div class="container">
+            <div class="row">
+                <div class="col s3">
+                    <a href="popular.html" class="waves-effect waves-light btn-flat">Popular Activities</a>
+                </div>
+                <div class="col s3">
+                    <a href="packages.html" class="waves-effect waves-light btn-flat">Packages</a>
+                </div>
+                <div class="col s3">
+                    <a href="#" class="waves-effect waves-light btn-flat">Contact Us</a>
+                </div>
+                <div class="col s3">
+                    <a href="sign_in.html" class="waves-effect waves-light btn-small red">LOGIN</a>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- mobile-nav -->
+    
+    <!-- SIDENAV  -->
+    <ul class="sidenav">
+        <li>
+            <div class="userview">
+                <div class="background">
+                    <img src="img/dashboard-bg.jpeg">
+                </div><!-- background -->
+                <a href="#img"><img class="circle" src="img/default-pic.jpeg"></a>
+                <a href="#name"><span class="white-text name">BTO Admin</span></a>
+                <a href="#name"><span class="white-text email">buyticketsmarketing@gmail.com</span></a>
+            </div><!-- userview -->
+        </li>
+        <li><a href="#" class="waves-effect">First Link</a></li>
+        <li><a href="#" class="waves-effect">Second Link</a></li>
+        <li><a href="#" class="waves-effect">Third Link</a></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a href="#" class="waves-effect">Fourth Link</a></li>
+        <li><a href="#" class="waves-effect">Fifth Link</a></li>
+    </ul>
+    
+    
+    <!-- FOOTER -->
+    <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">
+              We at <a href="https://www.buytickets.my">buytickets.my</a> keep our customers experience at the top of our priority!
+              Offering only the best things that we ourselves believe better than any other place you'd pay for your vacation. 
+              Leave all the hassle to look for affordable price to us, we are really good at it.
+          </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Featured</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Mangrove Tour</a></li>
+            <li><a class="white-text" href="#!">Island Hopping</a></li>
+            <li><a class="white-text" href="#!">Car Rental</a></li>
+            <li><a class="white-text" href="#!">Honeymoon Packages</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="sign_in.html">Login</a></li>
+            <li><a class="white-text" href="sign_up.html">Signup</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/buyticketsmy">Facebook</a></li>
+            <li><a class="white-text" href="https://www.instagram.com">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+      &copy; 2017 - 2018<a class="red-text text-lighten-3" href="http://www.facebook.com/buyticketsmy"> BuyTickets.my</a>
+      </div>
+    </div>
+  </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            /* global $ */
+            //Initiate Sidenav
+            $('.sidenav').sidenav();
+        });
+    </script>
+    
+</body>
+</html>
