@@ -5,6 +5,10 @@
 /*font-family: 'Magra', sans-serif;*/
 
 
+body {
+    background-color: #eee;
+}
+
 nav {
     font-family: 'Encode Sans Condensed', sans-serif;
 }
@@ -12,7 +16,7 @@ nav {
 .mobile-nav {
     font-family: 'Encode Sans Condensed', sans-serif;
     margin-top: 15px;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 .nav-wrapper ul li {
