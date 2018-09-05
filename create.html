@@ -59,12 +59,16 @@
         </div><!-- container -->
     </div><!-- mobile-nav -->
     
-    <div class="row">
+    <!-- Create Package Section -->
+    <div class="container">
+        
+        <div class="row">
         <div class="col s12">
             <div class="card-panel">
                 <div class="card-content">
                     <h4 class="center">Please fill all the required information</h4>
                 </div><!-- card-content -->
+                <br/>
                 <div class="card-tabs">
                     <ul class="tabs tabs-fixed-width">
                         <li class="tab"><a href="#details">Details</a></li>
@@ -75,7 +79,83 @@
                 </div><!-- card-tabs -->
                 <div class="card-content">
                     <div id="details">
-                    <p class="center">Enter details form here</p>
+                        <div class="row">
+                            <h5 class="center">Activity Details Section</h5>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="activity-name" type="text">
+                                        <label for="activity-name">Activity name</label>
+                                        <span class="helper-text">Name will be displayed in all pages</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="about-text" class="materialize-textarea"></textarea>
+                                        <label for="about-text">About</label>
+                                        <span class="helper-text">Enter an introduction about this activity</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="detail-title-1" type="text">
+                                        <label for="detail-title-1">Title For Details 1</label>
+                                        <span class="helper-text">Enter a name for this detail section</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="details-text-1" class="materialize-textarea"></textarea>
+                                        <label for="details-text-1">Information About Details 1</label>
+                                        <span class="helper-text">Enter important information about this activity</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <div class="row">
+                                    <h6>Detail 2 will add more information, leave blank if there is no more information.</h6>
+                                    <div class="input-field col s12">
+                                        <input id="detail-title-2" type="text">
+                                        <label for="detail-title-2">Title For Details 2</label>
+                                        <span class="helper-text">Enter a name for this detail section</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="detail-text-2" class="materialize-textarea"></textarea>
+                                        <label for="detail-text-2">Information About Details 2</label>
+                                        <span class="helper-text">Add more information about activity.</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <br/>
+                                <br/>
+                                <hr/>
+                                <br/>
+                                <br/>
+                                <div class="row">
+                                    <h6>How to get there</h6>
+                                    <div class="input-field col s12">
+                                        <textarea id="direction-text" class="materialize-textarea"></textarea>
+                                        <label for="direction-text">Directions Text</label>
+                                        <span class="helper-text">Enter text information on how to get to location.</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <div class="row">
+                                    <h6>How to secure your seats</h6>
+                                    <div class="input-field col s12">
+                                        <textarea id="secure-seats-text" class="materialize-textarea"></textarea>
+                                        <label for="secure-seats-text">Secure Seats</label>
+                                        <span class="helper-text">Enter text information on how to secure seats.</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                                <div class="row">
+                                    <h6>Additional Information</h6>
+                                    <div class="input-field col s12">
+                                        <textarea id="add-information-text" class="materialize-textarea"></textarea>
+                                        <label for="add-information-text">Additional Information</label>
+                                        <span class="helper-text">Add more information about this reservation, leave blank if not required.</span>
+                                    </div><!-- input-field -->
+                                </div><!-- row -->
+                            </form>
+                        </div><!-- row -->
                     </div>
                     <div id="photos">
                         <p class="center">Upload photos here</p>
@@ -90,7 +170,8 @@
             </div><!-- card-panel -->
         </div><!-- col -->
     </div><!-- row -->
-    
+        
+    </div><!-- container -->
     
     <!-- FOOTER -->
     <footer class="page-footer grey darken-3">
